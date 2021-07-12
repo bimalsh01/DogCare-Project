@@ -9,14 +9,14 @@ header{
     background-image: linear-gradient(80deg, rgb(6 6 6 / 64%) 21%, transparent),url("/image/banner1.jpg");
     background-size: cover;
     height: 100vh;
-    width: 100%;
+    
     
 }
 .header-top{
     padding: 1.5em 3%;
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
 }
 
@@ -102,4 +102,43 @@ header{
     background-color: aliceblue;
     color: black;
     transition: all(.5s);
+}
+
+/* ---------- */
+#about{
+    justify-content: center;
+    margin: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-left{
+    justify-content: right;
+}
+.about-left img{
+    image-rendering: auto;
+    align-items: center;
+}
+
+.about-right{
+    padding: 30px;
+}
+
+.about-right-info{
+    padding: 20px;
+    line-height: 30px;
+}
+.about-right-info h1{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.about-right-content{
+    display: flex;
+    padding: 20px;
+}
+.our-vision{
+    padding-left: 50px;
+}
+.about-right-content i{
+    color: #F85A40;
 }
