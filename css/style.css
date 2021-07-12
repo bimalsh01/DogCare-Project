@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Raleway,sans-serif;
+    
+}
+header{
+    
+    background-image: linear-gradient(80deg, rgb(6 6 6 / 64%) 21%, transparent),url("/image/banner1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.header-top{
+    padding: 1.5em 3%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+
+.head-logo{
+    color: white;
+    padding: 40px;
+    display: flex;
+}
+.head-logo h1{
+    padding-left: 10px;
+}
+
+.nav-bar{
+    display: flex;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    
+}
+
+.nav-bar ul li {
+    list-style-type:none;
+    padding: 50px 10px 0px 10px;
+    font-weight: bold;
+    
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#search{
+    padding: 15px;
+    margin:31px;
+    border-radius: 60px;
+}
+.search-icon i {
+    margin: 10px ;
+    color: white;
+}
+
+/* ---------------- */
+.h-content{
+    margin: 9%;
+    padding: 20px;
+    line-height: 60px;
+    color: white;
+    font-size: 30px;
+}
+.h-center{
+    font-size: 20px;
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.h-last button{
+    background-color: aliceblue;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    width: 12rem;
+    border-radius: 5px;
+}
+
+.h-last button:hover{
+    background-color: transparent;
+    transition: .4s;
+    border: 2px solid white;
+    color: white;
+    transition:all(.5s);
+}
+#btn1{
+    background-color: transparent; 
+    border: 2px solid white; 
+    color: aliceblue;
+}
+#btn1:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: all(.5s);
+}
