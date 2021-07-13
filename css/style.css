@@ -276,3 +276,36 @@ header{
     padding-top: 10px;
     
 }
+
+/* ------------------ */
+#dog-feature{
+    background-color: #FAFAFA;
+}
+.dog-img img{
+    width: 100%;
+    justify-content: right;
+}
+.dog-features{
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dog-info{
+    display: flex;
+    flex-basis: 50%;
+    padding-left: 20px;
+}
+
+.dog-col{
+    line-height: 31px;
+    padding: 10px;
+    margin: 7%;
+}
+
+.dog-col i{
+    color: #F85A40;
+}
+
+
+
