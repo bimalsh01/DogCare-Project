@@ -306,6 +306,50 @@ header{
 .dog-col i{
     color: #F85A40;
 }
+/* ----------------------- */
+#petlover{
+    background-image: url(/image/bg.jpg);
+    background-attachment: fixed;
+    color: white;
+    
+}
+.petlover-content{
+   padding: 20px;
+}
+.pet-cont{
+    margin: 7rem;
+}
+
+.pl1{
+    margin: 20px;
+}
+
+.pl2{
+    font-size: 45px;
+    margin: 20px;
+}
+
+.pl3{
+    margin: 20px;
+}
+
+.pl3 button{
+    background-color: aliceblue;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    width: 12rem;
+    border-radius: 5px;
+}
+
+.pl3 button:hover{
+    background-color: transparent;
+    transition: .4s;
+    border: 2px solid white;
+    color: white;
+    transition:all(.5s);
+}
 
 
 
