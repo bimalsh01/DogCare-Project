@@ -10,17 +10,44 @@ header{
     background-size: cover;
     /* height: 100vh; */
     padding-bottom: 100px;
+    position: relative;
     
     
 }
-.header-top{
+#header-top{
     padding: 1.5em 3%;
     display: flex;
     justify-content: space-between;
-    /* position: sticky; */
+    position:inherit;
     top: 0;
     flex-wrap: wrap;
+    z-index: 100000;
+    transition: .3s;
 }
+
+#header-top.sticky{
+    background: #FAFAFA;
+    padding: 5px 80px;
+    position: fixed;
+    width: 100%;
+    height: 12%;
+    
+    
+}
+#header-top.sticky ul li a{
+    color: black;
+}
+#header-top.sticky .head-logo{
+    color:black;
+
+}
+#header-top.sticky ul li i{
+    color: black;
+}
+
+
+/* ---------------- */
+
 
 
 .head-logo{
@@ -28,11 +55,41 @@ header{
     padding: 40px;
     display: flex;
 }
+.head-logo i{
+    color: #F85A40;
+}
+
 .head-logo:hover{
     cursor: pointer;
     color: #F85A40;
     transition: .5s;
 }
+
+/* Drop Down */
+.dropdown-content{
+    display: none;
+    background-color:#FAFAFA ;
+    position:absolute;
+    color: green;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#myDropdown a{
+    color: black;
+    padding: 12px;
+    display: block;
+}
+#myDropdown a:hover{
+    color: #eb4c33;
+    transition: .5s;
+}
+
+
+.show{
+    display:block;
+}
+
+/* DropDown End */
 
 
 .head-logo h1{
@@ -471,8 +528,9 @@ footer{
 .f-left{
     padding-right: 6rem;
 }
-.f-right i{
+.f-right a{
     padding-left: 15px;
+    color: #FAFAFA;
 }
 .f-right i:hover{
     color: #F85A40;

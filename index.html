@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
+
     <script src="https://kit.fontawesome.com/1f5840ee72.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/style.css">
@@ -9,28 +11,32 @@
     <title>Document</title>
 </head>
 <body>
-
     <header>
         
-        <div class="header-top">
+        <div id="header-top">
             <div class="head-logo">
                 <i class="fa fa-paw fa-2x" ></i>
                 <h1>Dogs Care</h1>
             </div>
 
             <div class="nav-bar">
-                
                     <ul>
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">SERVICE</a></li>
-                        <li><a href="#">PAGES</a></li>
+                        <li>
+                            <a href="#" id="dropdown" onclick="dropFcn()">PAGES</a>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#">Blog Post</a>
+                                <a href="#">404 Page Error</a>
+                                <a href="#">Landing Page</a>
+                            </div>
+                        </li>
                         <li><a href="#">CONTACT</a></li>
                         <input type="search" name="search" id="search" placeholder="Enter Keywords" >
                         <li><i class="fa fa-search fa-1x" ></i></li>
                     </ul>   
             </div>
-
         </div>
 
         <div class="h-content">
@@ -51,8 +57,6 @@
             </div>
             
         </div>
-
-
     </header>
 
     <section id="about">
@@ -423,7 +427,7 @@
                 <H1>SUBSCRIBE HERE NOW</H1>
                 <div class="subscribe-col">
                     <input type="text" name="email" id="email" placeholder="Email Address">
-                    <button class="btn"><i class="fa fa-paper-plane"></i></button>
+                    <button class="btn"><i class="fa fa-paper-plane" onclick="myFun()"></i></button>
                 </div>
                 <p>Subscribe to our mailing list and get updates <br> to your email inbox.</p>
             </div>
@@ -435,20 +439,20 @@
                 <p>© 2021 Dogs Care. All Rights Reserved | Dog Care Theme by <a href="https://shresthabimal.com.np/?i=1">Click Here</a></p>
             </div>
             <div class="f-right">
-                <i class="fa fa-facebook fa-1x" ></i>
-                <i class="fa fa-linkedin fa-1x" ></i>
-                <i class="fa fa-twitter fa-1x" ></i>
-                <i class="fa fa-google-plus fa-1x" ></i>
-                <i class="fa fa-github fa-1x" ></i>
+                <a href="https://www.linkedin.com/in/bimalstha/"><i class="fa fa-facebook fa-1x" ></i></a>
+                <a href="https://www.linkedin.com/in/bimalstha/"><i class="fa fa-linkedin fa-1x" ></i></a>
+                <a href="https://www.linkedin.com/in/bimalstha/"><i class="fa fa-twitter fa-1x" ></i></a>
+                <a href="https://www.linkedin.com/in/bimalstha/"><i class="fa fa-google-plus fa-1x" ></i></a>
+                <a href="https://github.com/itsbimal"><i class="fa fa-github fa-1x" ></i></a>
             </div>
         </footer>
 
-
-
     </section>
 
+    <script src="/JavaScript/style.js"></script>
 
-    
+      
+
 
 </body>
 </html>
